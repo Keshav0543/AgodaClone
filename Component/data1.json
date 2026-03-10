@@ -1,0 +1,92 @@
+{
+  "villas": [
+    {
+      "title": "Villa in JP Nagar",
+      "location": "JP Nagar, Bengaluru",
+      "destination": "Bengaluru",
+      "checkin": "2026-04-10",
+      "checkout": "2026-04-12",
+      "price": "₹12,550",
+      "price_duration": "for 2 nights",
+      "price_per_night": "₹6,275",
+      "rating": 5.0,
+      "rating_count": 64,
+      "badge": "Guest favourite",
+      "image": "https://a0.muscache.com/im/pictures/miso/Hosting-1259871089286842941/original/d98ba41d-907a-428a-b75a-8cb4f077ed12.jpeg",
+      "listing_id": "RGVtYW5kU3RheUxpc3Rpbmc6MTI1OTg3MTA4OTI4Njg0Mjk0MQ=="
+    },
+    {
+      "title": "Villa in Varca",
+      "location": "Varca, South Goa",
+      "destination": "South Goa",
+      "checkin": "2026-04-03",
+      "checkout": "2026-04-05",
+      "price": "₹15,745",
+      "price_duration": "for 2 nights",
+      "price_per_night": "₹7,872.50",
+      "rating": 4.93,
+      "rating_count": 59,
+      "badge": "Guest favourite",
+      "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1404733101754136415/original/b89c04df-6c66-4bc6-8fb1-8fc3fbfe366f.jpeg",
+      "listing_id": "RGVtYW5kU3RheUxpc3Rpbmc6MTQwNDczMzEwMTc1NDEzNjQxNQ=="
+    },
+    {
+      "title": "Villa in Siolim",
+      "location": "Siolim, North Goa",
+      "destination": "North Goa",
+      "checkin": "2026-03-13",
+      "checkout": "2026-03-15",
+      "price": "₹24,438",
+      "price_duration": "for 2 nights",
+      "price_per_night": "₹12,219",
+      "rating": 5.0,
+      "rating_count": 23,
+      "badge": "Guest favourite",
+      "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTM4Mzg1MTc0MDc0NjI4NTcwOA==/original/9298bb58-8784-476e-8609-274c255712a0.jpeg",
+      "listing_id": "RGVtYW5kU3RheUxpc3Rpbmc6MTM4Mzg1MTc0MDc0NjI4NTcwOA=="
+    },
+    {
+      "title": "Villa in Siolim",
+      "location": "Siolim, North Goa",
+      "destination": "North Goa",
+      "checkin": "2026-03-13",
+      "checkout": "2026-03-15",
+      "price": "₹25,600",
+      "price_duration": "for 2 nights",
+      "price_per_night": "₹12,800",
+      "rating": 5.0,
+      "rating_count": 12,
+      "badge": "Guest favourite",
+      "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1525986631367666333/original/059c11d6-dcac-422a-825b-3fd54d349905.jpeg",
+      "listing_id": "RGVtYW5kU3RheUxpc3Rpbmc6MTUyNTk4NjYzMTM2NzY2NjMzMw=="
+    },
+    {
+      "title": "Villa in Vagator",
+      "location": "Vagator, North Goa",
+      "destination": "North Goa",
+      "checkin": "2026-03-13",
+      "checkout": "2026-03-15",
+      "price": "₹16,183",
+      "price_duration": "for 2 nights",
+      "price_per_night": "₹8,091.50",
+      "rating": 4.96,
+      "rating_count": 27,
+      "badge": "Guest favourite",
+      "image": "https://a0.muscache.com/im/pictures/hosting/Hosting-1449147785694545215/original/634a342e-d8f9-4c13-b9e7-7d61100b6c3a.jpeg",
+      "listing_id": "RGVtYW5kU3RheUxpc3Rpbmc6MTQ0OTE0Nzc4NTY5NDU0NTIxNQ=="
+    }
+  ],
+  "summary": {
+    "total_villas": 5,
+    "destinations": [
+      "Bengaluru",
+      "South Goa",
+      "North Goa"
+    ],
+    "price_range": {
+      "min": "₹12,550 (2 nights)",
+      "max": "₹25,600 (2 nights)"
+    },
+    "all_ratings_above": 4.9
+  }
+}

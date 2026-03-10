@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.rootHdiv{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-around;
+}
+
+.Logodiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logodiv img{
+    width: 89px;
+    height: 37px;
+}
+
+.TitleLeftDiv,.TitleRightDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.TitleLeftDiv p{
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+
+.TitleRightDiv button{
+    border-radius: 10px;
+    border-color: black;
+    color: rgb(75, 75, 203);
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.BannerDiv{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.BannerImgdiv{
+    width: 100%;
+    padding: 30px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.BannerImgdiv img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Hover effect */
+.BannerImgdiv img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+}
+
+
+.BannerTitle{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.BannerTitle p{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+
+.Form1{
+    display: flex;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    height: auto;
+    gap: 20px;
+}
+
+.Common-share{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.svg-img img{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.Titlesvg p{
+    cursor: pointer;
+}
