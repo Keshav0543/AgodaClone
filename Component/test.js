@@ -1,14 +1,3 @@
-import { useState , useEffect} from "react";
-import data from "./data1.json";
-import data2 from "./data2.json";
-
-function useBrain(){
-const [Data,setData]=useState(data);
-const [Data2,setData2]=useState(data2);
-const [citydata,setcitydata]=useState(null);
-
-
-
 async function searchHotel(cityId){
     const payload = {
     operationName: "citySearch",
@@ -277,7 +266,7 @@ async function searchHotel(cityId){
   };
 
   try {
-    const response = await fetch("http://localhost:3000/search", {
+    const response = await fetch("https://www.agoda.com/graphql/search", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -301,14 +290,12 @@ async function searchHotel(cityId){
     const properties = data?.data?.citySearch?.properties;
     
 
-    setcitydata(properties);
+    console.log(properties);
 
   } catch (err) {
     console.error("Error:", err.message);
   }
 }
 
-return {Data,Data2,citydata,searchHotel};
-}
 
-export default useBrain;
+searchHotel(14552);
